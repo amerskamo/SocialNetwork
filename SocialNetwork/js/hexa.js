@@ -69,7 +69,7 @@ document.getElementById("postForm").addEventListener("submit", (e) => {
     let delete_post_html = "";
 
     if (session_id === post.user_id) {
-      delete_post_html = `<button class ='remove-btn' onclick ='removeMyPost(this)'>Remove<button>`;
+      delete_post_html = `<button class ='remove-btn' onclick ='removeMyPost(this)'>Remove</button>`;
     }
 
     document.getElementById("allPostsWrapper").innerHTML =
